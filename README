@@ -1,0 +1,7 @@
+This program simulates the evolution of some living stuff which have artificial intelligences and maybe we'll also use genetic algorithms.
+
+Based on tutorials at ai-junkie.com, genetic algorithms and neural networks.
+
+Will support CMake at some time eventually maybe hopefully...
+
+Documentation and plans at doc.txt

@@ -1,0 +1,43 @@
+class World
+  -array of objects
+  update
+  render
+  collisiontests
+
+class Intelligence
+  -uses nnlib
+  -uses geneticlib
+
+  constructor () // random
+  constructor (intelligence) // copy
+
+  setwhatdoigive //set in constructor only
+  setwhatdoiwant //~
+
+  modify
+  calculate(parameter)->result
+
+class Object
+  -x,ypos +read
+  -radius +read
+  -reference to world (may be static) +read
+
+  render (virtual) +read
+  update (virtual) +read
+
+class Bug extends Object
+  -has Intelligence
+  -direction:XY
+
+class Plant extends Object
+  -STATIC minenergy
+  -maxenergy // modify on clone
+
+
+
+
+
+
+
+
+

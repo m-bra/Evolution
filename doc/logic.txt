@@ -8,5 +8,6 @@ A bug has two move-thingies. Both of them can apply a force to the bug INDEPENDE
 However, moving costs energy, and thus, when moving, the bug gives energy to the environment. (note: the faster, the more energy)
 The bug has three (?) light sensors, which can see far, but only IF there is something, not WHAT. Two (?) feeling antennas, which can feel and give information about the thing that lies in front of it (if any), but only when it is near to the bug.
 Every bug has a spike, which eats up everything it touches. When a bug eats something with energy, it gets its energy.
+Ask the delphi intelligence whether to clone, BUT it may not clone more than once per second
 
 Plants take the energy from the environment (with a certain speed which is different for each plant). If a plant has much energy (every plant has its own definition of "much" e.g. has a treshold), it clones itself and shares its energy.

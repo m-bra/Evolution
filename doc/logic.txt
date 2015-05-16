@@ -6,7 +6,7 @@ Both contain energy, and the environment itself contains energy, too.
 
 A bug has two move-thingies. Both of them can apply a force to the bug INDEPENDENTLY which makes the bug able to ROTATE, like a tank. They can move fast or slow.
 However, moving costs energy, and thus, when moving, the bug gives energy to the environment. (note: the faster, the more energy)
-The bug has three (?) light sensors, which can see far, but only IF there is something, not WHAT. Two (?) feeling antennas, which can feel and give information about the thing that lies in front of it (if any), but only when it is near to the bug.
+Has 16 (?) light sensors which can see color.
 Every bug has a spike, which eats up everything it touches. When a bug eats something with energy, it gets its energy.
 Ask the delphi intelligence whether to clone, BUT it may not clone more than once per second
 
